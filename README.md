@@ -1,4 +1,4 @@
-# Servo-motor-by-STM32F103C6
+# Servo motor by STM32F103C6
 
 Servo motor control with STM32F103C6
 This project was done from Sep 11 to Sep 15, 2022.
