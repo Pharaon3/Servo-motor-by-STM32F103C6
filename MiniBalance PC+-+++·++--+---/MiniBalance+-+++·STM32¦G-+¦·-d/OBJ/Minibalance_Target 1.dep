@@ -1,0 +1,54 @@
+Dependencies for Project 'Minibalance', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\startup_stm32f10x_md.s)(0x532BB228)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_LD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ../obj/startup_stm32f10x_md.o)
+F (.\Minibalance.c)(0x568DB1D9)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ../SYSTEM/delay -I ../SYSTEM/sys -I ../SYSTEM/usart -I ../BALANCE/DataScope_DP-I./RTE/_Target_1-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_ -DSTM32F10X_MD-o ../obj/minibalance.o -MD)
+I (..\SYSTEM\sys\sys.h)(0x568DB1D9)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\SYSTEM\usart\usart.h)(0x559E2904)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x625252C6)
+I (..\BALANCE\DataScope_DP\DataScope_DP.h)(0x568755FC)
+F (..\SYSTEM\delay\delay.c)(0x5584D9A5)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ../SYSTEM/delay -I ../SYSTEM/sys -I ../SYSTEM/usart -I ../BALANCE/DataScope_DP-I./RTE/_Target_1-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_ -DSTM32F10X_MD-o ../obj/delay.o -MD)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\SYSTEM\sys\sys.h)(0x568DB1D9)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x559E2904)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x625252C6)
+F (..\SYSTEM\sys\sys.c)(0x5584D9A5)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ../SYSTEM/delay -I ../SYSTEM/sys -I ../SYSTEM/usart -I ../BALANCE/DataScope_DP-I./RTE/_Target_1-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_ -DSTM32F10X_MD-o ../obj/sys.o -MD)
+I (..\SYSTEM\sys\sys.h)(0x568DB1D9)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\SYSTEM\usart\usart.h)(0x559E2904)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x625252C6)
+F (..\SYSTEM\usart\usart.c)(0x559E2904)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ../SYSTEM/delay -I ../SYSTEM/sys -I ../SYSTEM/usart -I ../BALANCE/DataScope_DP-I./RTE/_Target_1-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_ -DSTM32F10X_MD-o ../obj/usart.o -MD)
+I (..\SYSTEM\usart\usart.h)(0x559E2904)
+I (..\SYSTEM\sys\sys.h)(0x568DB1D9)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x625252C6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x625252C6)
+F (..\BALANCE\DataScope_DP\DataScope_DP.C)(0x568755FC)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ../SYSTEM/delay -I ../SYSTEM/sys -I ../SYSTEM/usart -I ../BALANCE/DataScope_DP-I./RTE/_Target_1-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_ -DSTM32F10X_MD-o ../obj/datascope_dp.o -MD)
+I (..\BALANCE\DataScope_DP\DataScope_DP.h)(0x568755FC)

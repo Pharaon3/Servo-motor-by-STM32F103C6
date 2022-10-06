@@ -1,0 +1,105 @@
+Dependencies for Project 'timer-interrupt', Target 'STM32F103C8': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\main.c)(0x6323E449)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)
+I (delay.h)(0x631ECD82)
+F (.\delay.c)(0x631ECD82)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/delay.o -MD)
+I (delay.h)(0x631ECD82)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)
+F (C:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/src/misc.c)(0x61AD6B4E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/misc.o -MD)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+F (C:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/src/stm32f10x_gpio.c)(0x61AD6B4E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_gpio.o -MD)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)
+F (C:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/src/stm32f10x_rcc.c)(0x61AD6B4E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_rcc.o -MD)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)
+F (C:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/src/stm32f10x_tim.c)(0x61AD6B4E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/stm32f10x_tim.o -MD)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)
+F (RTE/Device/STM32F103C6/RTE_Device.h)(0x5FC041DA)()
+F (RTE/Device/STM32F103C6/startup_stm32f10x_ld.s)(0x61AD6B4E)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_LD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_ld.o)
+F (RTE/Device/STM32F103C6/stm32f10x_conf.h)(0x61AD6B4E)()
+F (RTE/Device/STM32F103C6/system_stm32f10x.c)(0x61AD6B4E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C6-I./RTE/_STM32F103C8-IC:/Users/bluesky/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-IC:/Users/bluesky/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DSTM32F10X_LD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h)(0x61AD6B4E)
+I (RTE\_STM32F103C8\RTE_Components.h)(0x6320486E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F3CCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x625252C8)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F3CCE)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h)(0x61AD6B4E)
+I (RTE\Device\STM32F103C6\stm32f10x_conf.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD6B4E)
+I (C:\Users\bluesky\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc\misc.h)(0x61AD6B4E)

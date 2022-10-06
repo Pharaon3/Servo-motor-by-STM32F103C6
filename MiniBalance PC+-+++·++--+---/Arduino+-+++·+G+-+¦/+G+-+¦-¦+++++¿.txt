@@ -1,0 +1,1 @@
+把我们提供的库文件拷贝到您的Arduino安装目录下的Libraries文件夹
